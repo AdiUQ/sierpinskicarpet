@@ -56,7 +56,7 @@ The fractal is suitable for parallel computation because the centre-square test 
 
 PyTorch can therefore apply the same tensor operations across many coordinates in parallel.
 
-When a CUDA-compatible GPU is available, the tensors are transferred to the GPU and these operations can be executed using GPU parallelism.
+When a cuda GPU is available, the tensors are transferred to the GPU and these operations can be executed using GPU parallelism.
 
 The device is selected using:
 
